@@ -1,0 +1,5 @@
+spec:
+  http:
+    tls:
+      selfSignedCertificate:
+        disabled: true
