@@ -1,0 +1,15 @@
+grafana:
+  ingress:
+    enabled: true
+    hosts:
+      - localhost
+
+prometheus:
+  ingress:
+    enabled: true
+    hosts:
+      - localhost
+    # servicePort: 8081
+
+alertmanager:
+  enabled: false
